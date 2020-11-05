@@ -1,0 +1,35 @@
+#outer-block {
+  background-color: grey;
+  width: 600px;
+  height: 550px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid grey;
+}
+#outer-block img {
+  padding: 15px 220px 0px;
+}
+.text {
+  text-align: center;
+  color: #fff;
+}
+#inside-block {
+  padding: 0px 10px;
+  color: #fff;
+}
+.btn {
+  text-align: center;
+}
+#red {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+#blue {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+#grey {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
