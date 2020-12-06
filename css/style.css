@@ -1,35 +1,51 @@
-#outer-block {
-  background-color: green;
-  width: 600px;
-  height: 565px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid grey;
-}
-#outer-block img {
-  padding: 15px 220px 0px;
-}
-.text {
-  text-align: center;
-  color: #fff;
-}
-#inside-block {
-  padding: 0px 10px;
-  color: #fff;
-}
-.btn {
-  text-align: center;
-}
-#red {
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-#blue {
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-#grey {
-  border: 1px solid grey;
-  border-radius: 5px;
-}
+ body{
+            background-color: #fff;
+            font-family: inherit;
+        }
+        .form-group{
+        background-color: #f0f2f5;
+        width: 600px;
+        height: 620px;
+		overflow: hidden;
+        border: 1px solid #f0f2f5;
+        border-radius: 0.5rem;
+        margin-left:auto;
+		margin-right: auto;
+		margin-top: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+		.form-group img {
+		  padding-top: 15px;
+		  position:relative;
+		  left:160px;
+		}
+        
+        .c2 {
+        width: 600px;
+        margin: 0 auto;
+		text-align: center;
+      }
+	  .c2{
+	  margin-top:12px;
+	  }
+        
+        a[href="#"]{
+            font-weight: bold;
+            color: black;
+        }
+        
+        h1{
+            color: #3366ff;
+            font-weight: bold;
+        }
+		 .text {
+		 margin-top: 15px;
+		  text-align: center;
+		}
+        
+        .section1 p{
+            padding: 0px 10px;
+			font-size:10.5pt;
+            
+            
+        }
