@@ -33,6 +33,12 @@
             font-weight: bold;
             color: #3366ff;
         }
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .form-group, .c2, .section1 {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
         
         h1{
             color: #3366ff;
