@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Project-0</title>
-      <link rel="stylesheet" href="css/style.css" />
-      <script src="js/index.js"></script>
-  </head>
-  <body>
-      <div id="outer-block">
-        <img src="images/graduation_day.jpg" alt="graduate" width="185px" />
-            <div class="text">
-                <h1>Graduation Day</h1>
-                <em>mia.mohamed.adam@gmail.com</em>
-                  <h2>
-                    <a href="https://github.com/Mohamed-Adm">Mohamed's profile</a>
-                  </h2>
-            </div>
-      <div id="inside-block">
-        <p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Project-0</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  <link rel="stylesheet" href="style.css" />
+	<script src="index.js"></script>
+</head>
+<body>
+
+    <div class="container box">
+        <form class="form-group"  id="outer-block">
+		 <img src="graduation_day.jpg" alt="graduation_day" width="200px" />
+				 <div class="container text">
+				<h1>Graduation Day</h1> 
+				<em>mia.mohamed.adam@gmail.com</em>
+				<h2>
+				  <a href="#">Mohamed's profile</a>
+				</h2>
+			  </div>
+             <section class="section1">
+           <p>
           I would like to welcome all of the family, friends, staff, and faculty that are here to support our 
           graduates. Today is an incredibly exciting day, and we should take a moment to reflect on our 
           journey. Some of us came straight from high school, some transferred here from community 
@@ -31,12 +39,21 @@
           family that lived in Comoros. I didn’t know anyone at the Faculty of Engineering (SSP), nor did I understand 
           what computer science and engineering really involved. Well now we know, or at least our professors hope we do.
         </p>
-      </div>
-      <div class="btn">
-        <button id="red">Red</button>
-        <button id="blue">Blue</button>
-        <button id="green">Green</button>
-      </div>
+        </section>
+            
+            <div class="container c2">
+      <button type="button" class="btn btn-primary btn-sm" id="rebc">
+        Rebecca
+      </button>
+      <button type="button" class="btn btn-warning btn-sm" id="yellow">
+        yellow
+      </button>
+      <button type="button" class="btn btn-danger btn-sm" id="red">Red</button>
+      <button type="button" class="btn btn-success btn-sm" id="green">
+        Green
+      </button>
     </div>
-  </body>
+        </form>
+    </div>
+</body>
 </html>
